@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+*,
+* ::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background: no-repeat scroll 0 0;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+#tracking_area {
+    width: 100%;
+    padding: 45px 0;
+    clear: both;
+}
+
+.inner_tracking {
+    width: 98%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inner_tracking h2 {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.inner_tracking.main {
+    display: flex;
+}
+
+.child_tracking {
+    background: #4d58de;
+    width: 25%;
+    padding: 45px 30px;
+    margin: 0 1% 10px;
+    border-radius: 25px;
+    color: #ffffff;
+}
+.child_tracking:nth-child(1){
+    background: #fd5868;
+}
+.child_tracking:nth-child(2){
+    background: #feaa88;
+}
+.child_tracking:nth-child(3){
+    background: #36deed;
+}
+.child_tracking i {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.child_tracking h5 {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 2rem;
+    margin: 0 0 10px;
+}
+.child_tracking p {
+    margin: 0;
+}
